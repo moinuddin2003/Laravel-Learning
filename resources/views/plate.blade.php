@@ -11,6 +11,7 @@
 <body>
     <div class="order">
         <h1>Order Up!</h1>
+        <p>Welcome to <strong>{{ $restaurantName }}</strong></p>
         <p>Your meal is: <strong>{{ $mealName }}</strong></p>
     </div>
 </body>
